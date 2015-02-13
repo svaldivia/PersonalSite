@@ -1,15 +1,17 @@
 # PersonalSite
 My personal website
 
-Languages:
+## Languages:
 Javascript
 Python
 CSS / LESS
 HTML
 
-Libraries:
-RequireJS
-BackboneJS
-UnderscoreJS
-Transit
-3L for LESS
+## Libraries:
+```
+    RequireJS
+    BackboneJS
+    UnderscoreJS
+    Transit
+    3L for LESS
+```
