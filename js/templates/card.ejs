@@ -1,0 +1,19 @@
+<div class="contentBlock flip-container _flip-container">
+	<div class="flipper _flipper">
+		<div class="front">
+			<img class="image" src="img/test.png">
+			<%= title %>
+		</div>
+		<div class="back">
+			<div class="languages">
+				<ul>
+				Languages:
+					<% for(var i=0; i< languages.length; i++) {%>
+					<li><%= languages[i] %></li>
+					<% } %>
+				</ul>
+			</div>
+			<div class="description"><%= description %></div>
+		</div>
+	</div>
+</div>

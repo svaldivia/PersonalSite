@@ -1,0 +1,41 @@
+application: sebastianvaldivia
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: yes
+
+handlers:
+- url: /favicon\.ico
+  static_files: favicon.ico
+  upload: favicon\.ico
+
+- url: /css_less
+  static_dir: css_less
+
+- url: /img
+  static_dir: img
+
+- url: /js
+  static_dir: js
+
+- url: /templates
+  static_dir: templates
+
+- url: /models
+  static_dir: models
+
+- url: /views
+  static_dir: views
+
+- url: /data
+  static_dir: js/data 
+
+- url: .*
+  script: main.app
+
+
+libraries:
+- name: webapp2
+  version: "2.5.2"
+- name: jinja2
+  version: latest
